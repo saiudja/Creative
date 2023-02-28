@@ -132,12 +132,10 @@ p {
 .container-main {
   width: 100%;
   margin: 0 auto;
-  padding: 0 30px 40px 30px;
 }
 .hero {
   background-color: rgba(0, 187, 240, 0.1);
   margin-top: 56px;
-  margin-bottom: 10px;
   padding-bottom: 10px;
 }
 .hero p {
