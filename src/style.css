@@ -25,15 +25,12 @@ h1 {
 h2 {
   color: var(--secondary-color);
   font-size: 36px;
-  padding: 5px 0;
   font-weight: 500;
 }
 h3 {
   color: var(--forth-color);
   font-size: 18px;
   font-weight: 400;
-  padding-bottom: 20px;
-  padding-top: 10px;
 }
 h1,
 h2,
@@ -63,7 +60,6 @@ h3 {
   cursor: pointer;
 }
 .secondary-link {
-  text-transform: capitalize;
   color: var(--primary-color);
   padding: 20px 15px;
   text-decoration: none;
