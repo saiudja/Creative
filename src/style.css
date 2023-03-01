@@ -110,10 +110,6 @@ p {
   text-decoration: underline;
 }
 
-.img-fluid {
-  max-width: 100%;
-  height: auto;
-}
 @media (max-width: 420px) {
   h3 {
     margin: 0 20px 0 20px;
@@ -125,6 +121,7 @@ p {
   .container-main {
     padding: 0 20px 0 20px;
     width: 80%;
+    margin: 0;
   }
 }
 .container-main {
@@ -147,8 +144,4 @@ p {
 .about-section p {
   font-style: italic;
   text-align: justify;
-}
-.img-fluid {
-  display: block;
-  margin: 0 auto;
 }
