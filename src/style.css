@@ -120,18 +120,17 @@ p {
   }
   .primary-link {
     font-size: 12px;
+    text-align: center;
   }
   .container-main {
+    padding: 0 20px 0 20px;
     width: 80%;
-  }
-  .about-section {
-    margin: 66px 20px 30px 20px !important;
-    padding: 0;
   }
 }
 .container-main {
   width: 100%;
   margin: 0 auto;
+  padding: 0 20px 0 20px;
 }
 .hero {
   background-color: rgba(0, 187, 240, 0.1);
