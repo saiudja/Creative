@@ -88,7 +88,7 @@ h3 {
 }
 .images {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin: 30px 10% 0px 10%;
   color: var(--secondary-color);
 }
