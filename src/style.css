@@ -129,8 +129,8 @@ p {
     width: 80%;
     margin: 0;
   }
-  .img-fluid {
-    max-width: 40%;
+  .images {
+    max-width: 50%;
   }
 }
 .container-main {
