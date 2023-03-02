@@ -27,47 +27,35 @@
     <link href="/src/style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-      <div class="container">
+    <div class="container">
+      <nav class="d-flex justify-content-between">
         <a
           class="navbar-brand"
           href="https://saiudja-portfolio.netlify.app"
           target="_blank"
-          >Saiudja</a
-        >
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="/">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/yoga.html">Yoga book</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/pictures.html">Live pictures</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/contacts.html">Contacts</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+          ><img src="/media/saiudja.png" class="logo d-none d-sm-block" />
+          <img src="/media/saiudja-short.png" class="logo d-block d-sm-none"
+        /></a>
+        <ul>
+          <li class="active">
+            <a href="/"> Home </a>
+          </li>
+          <li>
+            <a href="/yoga.html"> Yoga book</a>
+          </li>
+          <li>
+            <a href="/pictures.html"> Live pictures</a>
+          </li>
+          <li>
+            <a href="/contacts.html"> Contacts</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
 
     <div class="hero">
       <div class="row">
-        <div class="col-md-6 mt-4 mb-0">
+        <div class="col-md-6 mt-3 mb-3">
           <h2 class="text-center">Hi, I am</h2>
           <h1 class="text-center">Saiudja</h1>
           <h3 class="text-center">I am artist from Kiev, Ukraine.</h3>
@@ -79,7 +67,7 @@
             create the creation!
           </p>
         </div>
-        <div class="col-md-6 mt-4 mb-0">
+        <div class="col-md-6 mt-3 mb-3">
           <img
             class="img-fluid shadow rounded photo"
             src="/media/my-photo.jpg"
@@ -91,15 +79,15 @@
 
     <div class="container-main">
       <div class="row">
-        <div class="col-lg-6 mt-3 mb-3">
+        <div class="col-sm-6 mt-3 mb-3">
           <img
             src="/media/yoga/envelope.jpg"
-            class="img-fluid rounded"
+            class="img-fluid rounded right"
             width="300px"
           />
         </div>
         <div class="col-lg-6">
-          <h2 class="mb-3 mt-3 text-center">Darshan yoga-book</h2>
+          <h2 class="mb-3 mt-3">Darshan yoga-book</h2>
           <p>
             This is a book for children from 6 to 99 years old. The author of
             the text is Dhroeh Nankhoe, an outstanding performer of Indian music
@@ -133,10 +121,10 @@
             >
           </div>
         </div>
-        <div class="col-lg-6 mt-3 mb-3">
+        <div class="col-sm-6 mt-3 mb-3">
           <img
             src="/media/pictures/k1.png"
-            class="img-fluid rounded"
+            class="img-fluid rounded right"
             width="400px"
           />
         </div>
