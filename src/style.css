@@ -86,6 +86,12 @@ h3 {
 .contact a {
   color: var(--secondary-color);
 }
+.images {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 10% 0px 10%;
+  color: var(--secondary-color);
+}
 
 p {
   color: var(--forth-color);
@@ -122,6 +128,9 @@ p {
     padding: 0 20px 0 20px;
     width: 80%;
     margin: 0;
+  }
+  .img-fluid {
+    max-width: 40%;
   }
 }
 .container-main {
