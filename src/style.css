@@ -125,13 +125,14 @@ p {
     width: 80%;
     margin: 0;
   }
+  nav {
+    font-size: 12px;
+  }
+  .logo {
+    max-width: 50px;
+  }
 }
-nav {
-  font-size: 12px;
-}
-.logo {
-  max-width: 50px;
-}
+
 nav li {
   margin-left: 6px;
 }
@@ -141,6 +142,7 @@ nav li {
 }
 
 .container-main {
+  display: block;
   width: 100%;
   margin: 0 auto;
   padding: 0 20px 0 20px;
@@ -184,4 +186,8 @@ nav li.active a {
 }
 .logo {
   max-height: 40px;
+}
+.pages {
+  display: block;
+  margin: 0 auto;
 }
