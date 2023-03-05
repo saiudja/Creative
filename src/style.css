@@ -194,4 +194,11 @@ footer .primary-link {
   footer h4 {
     font-size: 16px;
   }
+  .container-main img {
+    display: flex;
+    margin: 0 auto;
+  }
+  .container-main h2 {
+    text-align: center;
+  }
 }
