@@ -37,6 +37,7 @@ h3 {
 h4 {
   font-size: 28px;
   margin: 0;
+  color: var(--secondary-color);
 }
 h1,
 h2,
@@ -98,7 +99,11 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
-
+.contact-link {
+  color: var(--primary-color);
+  font-size: 18px;
+  text-decoration: none;
+}
 .container-main {
   display: block;
   width: 100%;
@@ -118,7 +123,7 @@ p {
 .logo {
   max-height: 40px;
 }
-.pages {
+.media-box {
   display: block;
   margin: 0 auto;
 }
