@@ -124,8 +124,8 @@ p {
   max-height: 40px;
 }
 .media-box {
-  display: block;
-  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
 }
 nav {
   padding: 20px 0;
@@ -209,5 +209,9 @@ footer .primary-link {
   }
   .container-main h2 {
     text-align: center;
+  }
+  .media-box {
+    display: block;
+    margin: 0 auto;
   }
 }
