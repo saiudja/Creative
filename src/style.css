@@ -107,9 +107,13 @@ p {
 }
 .hero {
   background-color: rgba(0, 187, 240, 0.1);
+  padding-bottom: 10px;
 }
 .hero p {
-  margin: 80px 30px 30px 30px;
+  margin: 20px 30px;
+}
+.hero .primary-link {
+  text-align: center;
 }
 .logo {
   max-height: 40px;
