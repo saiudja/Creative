@@ -1,13 +1,13 @@
 body {
   background: #ffffff;
-  font-family: "Mukta", sans-serif;
+  font-family: "Roboto", sans-serif;
   max-width: 100%;
 }
 :root {
-  --primary-color: #005792;
-  --secondary-color: #00bbf0;
-  --third-color: #fdb44b;
-  --forth-color: #00204a;
+  --primary-color: #f4f56e;
+  --secondary-color: #72e8e1;
+  --third-color: #58b3d3;
+  --forth-color: #418c9f;
   --box-shadow: 5px 5px 10px rgba(104, 101, 114, 0.5);
 }
 
@@ -24,7 +24,7 @@ h1 {
   font-weight: 600;
 }
 h2 {
-  color: var(--secondary-color);
+  color: var(--third-color);
   font-size: 36px;
   font-weight: 500;
 }
@@ -43,15 +43,27 @@ h2,
 h3 {
   margin: 0;
 }
+p {
+  color: var(--forth-color);
+  font-size: 16px;
+  font-weight: 300;
+  padding: 0px;
+  margin: 0px 0px 10px 0px;
+  text-align: justify;
+}
 .container-main {
   display: block;
   width: 100%;
   margin: 0 auto;
   padding: 0 30px;
 }
+.about-section {
+  margin: 0 30px;
+  text-align: center;
+}
 .hero {
-  background-color: rgba(0, 187, 240, 0.1);
-  padding-bottom: 10px;
+  padding: 30px;
+  margin-top: 56px;
 }
 .hero p {
   margin: 20px 30px;
@@ -66,27 +78,38 @@ h3 {
 .media-box p {
   max-width: 400px;
 }
-p {
-  color: var(--forth-color);
-  font-size: 16px;
-  font-weight: 300;
-  padding: 0px;
-  margin: 0px 0px 10px 0px;
-  text-align: justify;
+.outside-wrap {
+  overflow: hidden;
+  position: relative;
 }
+.outside-bg {
+  opacity: 0.1;
+  position: absolute;
+  width: 50%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+.outside-content {
+  position: relative;
+}
+
 .navigation-links {
   display: flex;
   justify-content: center;
-  margin-top: 10px;
+  margin-top: 30px;
 }
 .navigation-links a {
-  margin: 20px;
+  margin: 0 20px;
 }
 .primary-link {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
-  padding: 20px 15px;
+  padding: 15px;
   text-decoration: none;
   border-radius: 4px;
   transition: all 200ms ease-in-out;
@@ -94,14 +117,14 @@ p {
 }
 .primary-link:hover {
   opacity: 0.7;
-  cursor: pointer;
 }
 .secondary-link {
-  color: var(--primary-color);
+  text-transform: capitalize;
+  color: var(--third-color);
   padding: 20px 15px;
   text-decoration: none;
   border-radius: 4px;
-  border: 1px solid var(--primary-color);
+  border: 1px solid var(--third-color);
   transition: all 200ms ease-in-out;
   cursor: pointer;
 }
@@ -109,23 +132,42 @@ p {
   opacity: 0.7;
   cursor: pointer;
 }
-.email-link {
-  display: flex;
-  justify-content: center;
-  color: var(--primary-color);
-  font-size: 26px;
-  text-decoration: none;
-}
-.email-link:hover {
-  text-decoration: underline;
-}
 .contact-link {
   color: var(--primary-color);
   font-size: 18px;
   text-decoration: none;
 }
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--third-color);
+  font-size: 28px;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+.email-link:hover {
+  text-decoration: underline;
+}
+.contacts {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 30px 30% 0px 30%;
+  color: var(--secondary-color);
+}
+.contact a {
+  color: var(--secondary-color);
+}
+
+.git {
+  color: var(--forth-color);
+  font-size: 14px;
+  text-align: center;
+  padding: 0 40px;
+}
 nav {
-  padding: 10px 0;
+  padding: 10px 30px;
+  background-color: var(--third-color);
 }
 nav ul {
   padding: 0;
@@ -150,27 +192,17 @@ nav li.active a {
 .logo {
   max-height: 40px;
 }
-footer .contact-box {
-  background: rgba(0, 187, 240, 0.1);
-  padding: 40px 60px;
-  border-radius: 10px;
-  margin: 0 40px 0 40px;
-}
-footer .contact-box p {
-  margin: 0;
-}
 footer .social-links {
   text-align: center;
   margin-top: 30px;
 }
 footer .social-links a {
   text-decoration: none;
-  color: var(--primary-color);
+  color: var(--third-color);
   font-size: 18px;
   margin: 0 20px;
-  background: rgba(0, 187, 240, 0.1);
+  background: rgba(244, 245, 110, 0.3);
   padding: 8px 14px;
-  border-radius: 50%;
   transition: all 100ms ease-in-out;
 }
 footer .social-links a:hover {
@@ -213,5 +245,8 @@ footer .primary-link {
   .media-box {
     display: block;
     margin: 0 auto;
+  }
+  .outside-bg {
+    width: 100%;
   }
 }
