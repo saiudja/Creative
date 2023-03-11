@@ -10,7 +10,6 @@ body {
   --forth-color: #418c9f;
   --box-shadow: 5px 5px 10px rgba(104, 101, 114, 0.5);
 }
-
 .photo {
   display: block;
   margin: 0 auto;
@@ -47,18 +46,16 @@ p {
   color: var(--forth-color);
   font-size: 16px;
   font-weight: 300;
-  padding: 0px;
-  margin: 0px 0px 10px 0px;
+  padding: 0;
+  margin: 0;
   text-align: justify;
 }
 .container-main {
-  display: block;
   width: 100%;
   margin: 0 auto;
   padding: 0 30px;
 }
 .about-section {
-  margin: 0 30px;
   text-align: center;
 }
 .hero {
@@ -71,7 +68,13 @@ p {
 .hero .primary-link {
   text-align: center;
 }
-
+.media-box {
+  display: flex;
+  justify-content: space-evenly;
+}
+.media-box p {
+  max-width: 400px;
+}
 .outside-wrap {
   overflow: hidden;
   position: relative;
@@ -90,7 +93,6 @@ p {
 .outside-content {
   position: relative;
 }
-
 .navigation-links {
   display: flex;
   justify-content: center;
@@ -210,10 +212,6 @@ footer .primary-link {
     margin: 0 20px 0 20px;
   }
 
-  .container-main {
-    padding: 0 10px;
-    margin-right: 0;
-  }
   nav {
     font-size: 10px;
   }
@@ -223,12 +221,6 @@ footer .primary-link {
   .container-main img {
     display: flex;
     margin: 0 auto;
-  }
-  .container-main h2 {
-    text-align: center;
-  }
-  .about-section {
-    margin: 0 10px;
   }
   .outside-bg {
     width: 100%;
