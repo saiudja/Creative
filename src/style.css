@@ -93,6 +93,13 @@ p {
 .outside-content {
   position: relative;
 }
+.text-italic {
+  font-style: italic;
+  font-weight: 600;
+}
+.underline {
+  text-decoration: underline;
+}
 .navigation-links {
   display: flex;
   justify-content: center;
