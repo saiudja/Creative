@@ -79,7 +79,8 @@ p {
   overflow: hidden;
   position: relative;
 }
-.outside-bg {
+.outside-bg,
+.outside-bg-top {
   opacity: 0.1;
   position: absolute;
   width: 50%;
@@ -233,6 +234,10 @@ footer .primary-link {
   }
   .outside-bg {
     width: 100%;
+    vertical-align: middle;
+  }
+  .outside-bg-top {
+    width: 50%;
     vertical-align: middle;
   }
 }
